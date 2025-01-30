@@ -1,2 +1,5 @@
-[build]
-rustflags = ["-C", "link-arg=-fuse-ld=lld"]
+[alias]
+loco = "run --"
+loco-tool = "run --"
+
+playground = "run --example playground"
